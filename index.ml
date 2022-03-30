@@ -1,9 +1,3 @@
-let pi = 3.1415;;
+let kyuyo_shokyu keireki hours = (850 + keireki / 12 * 100 ) * hours;;
 
-let jikyuu = 950;;
-
-let kihonkyu = 100;;
-
-let f x = 3 * x ;;
-
-f 4;;
+print_int(kyuyo_shokyu 13 100);;
